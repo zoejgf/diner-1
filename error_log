@@ -1,0 +1,6 @@
+[09-Feb-2023 21:37:23 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /home/zfortinc/public_html/328/diner-1/model/data-layer.php on line 9
+[09-Feb-2023 21:38:30 UTC] ucfirst() expects parameter 1 to be string, array given
+[09-Feb-2023 21:38:30 UTC] [328/diner-1/tmp/2rv89i2knj8kg.gt4qc39uprrn.php:21] 
+[09-Feb-2023 21:38:30 UTC] [328/diner-1/tmp/2rv89i2knj8kg.gt4qc39uprrn.php:21] ucfirst()
+[09-Feb-2023 21:38:30 UTC] [328/diner-1/index.php:84] Preview->render()
+[09-Feb-2023 21:38:30 UTC] [328/diner-1/index.php:103] Base->run()

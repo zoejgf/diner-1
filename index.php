@@ -12,8 +12,10 @@ error_reporting(E_ALL);
 //Start a session
 session_start();
 
-//Require autoload file
+//Require file
 require_once('vendor/autoload.php');
+require_once('model/data-layer.php');
+//var_dump(getMeals());
 
 //Instantiate F3 Base class
 $f3 = Base::instance();
@@ -54,9 +56,12 @@ $f3->route('GET|POST /order1', function($f3) {
         $f3->reroute('order2');
     }
 
+    //add meals to F3 hive
+    $f3->set('meals', getMeals());
+
     //Instantiate a view
     $view = new Template();
-    echo $view->render("views/order-form1.html");
+    echo $view->render('views/order-form1.html');
 
 });
 
@@ -72,10 +77,11 @@ $f3->route('GET|POST /order2', function($f3) {
         //Redirect to summary page
         $f3->reroute('summary');
     }
+    $f3->set('condiments', getCondiments());
 
     //Instantiate a view
     $view = new Template();
-    echo $view->render("views/order-form2.html");
+    echo $view->render('views/order-form2.html');
 
 });
 
@@ -84,7 +90,7 @@ $f3->route('GET /summary', function() {
 
     //Instantiate a view
     $view = new Template();
-    echo $view->render("views/order-summary.html");
+    echo $view->render('views/order-summary.html');
 
 });
 
