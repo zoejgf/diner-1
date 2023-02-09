@@ -15,7 +15,17 @@ session_start();
 //Require file
 require_once('vendor/autoload.php');
 require_once('model/data-layer.php');
+require_once('model/validate.php');
+/*
+$food1 = "tacos";
+$food2 = "";
+$food3 = "x";
+echo validFood($food1) ? "valid" : "not valid";
+echo validFood($food2) ? "valid" : "not valid";
+echo validFood($food3) ? "valid" : "not valid";
+*/
 //var_dump(getMeals());
+//var_dump(getCondiments());
 
 //Instantiate F3 Base class
 $f3 = Base::instance();
@@ -49,11 +59,26 @@ $f3->route('GET|POST /order1', function($f3) {
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         //Move data from POST array to SESSION array
-        $_SESSION['food'] = $_POST['food'];
-        $_SESSION['meal'] = $_POST['meal'];
+        $food = trim($_POST['food']);
+        if(validFood($food)) {
+            $_SESSION['food'] = $food;
+        } else {
+            $f3->set('errors["food"]', 'Food must have at least two characters');
+        }
+
+        //validate the meal
+        $meal = $_POST['meal'];
+        if (validMeal($meal)) {
+            $_SESSION['meal'] = $meal;
+        } else {
+            $f3->set('errors["meal"]', 'Meal is invalid');
+        }
 
         //Redirect to summary page
-        $f3->reroute('order2');
+        //if there are no errors
+        if (empty($f3->get('errors'))) {
+            $f3->reroute('order2');
+        }
     }
 
     //add meals to F3 hive
