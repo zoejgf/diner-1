@@ -4,3 +4,90 @@
 [09-Feb-2023 21:38:30 UTC] [328/diner-1/tmp/2rv89i2knj8kg.gt4qc39uprrn.php:21] ucfirst()
 [09-Feb-2023 21:38:30 UTC] [328/diner-1/index.php:84] Preview->render()
 [09-Feb-2023 21:38:30 UTC] [328/diner-1/index.php:103] Base->run()
+[23-Feb-2023 21:52:56 UTC] Cannot modify header information - headers already sent by (output started at /home/zfortinc/public_html/328/diner-1/index.php:14)
+[23-Feb-2023 21:52:56 UTC] [328/diner-1/index.php:96] Base->reroute()
+[23-Feb-2023 21:52:56 UTC] [328/diner-1/index.php:147] Base->run()
+[23-Feb-2023 22:12:21 UTC] implode(): Invalid arguments passed
+[23-Feb-2023 22:12:21 UTC] [328/diner-1/index.php:117] 
+[23-Feb-2023 22:12:21 UTC] [328/diner-1/index.php:117] implode()
+[23-Feb-2023 22:12:21 UTC] [328/diner-1/index.php:147] Base->run()
+[23-Feb-2023 22:13:02 UTC] implode(): Invalid arguments passed
+[23-Feb-2023 22:13:02 UTC] [328/diner-1/index.php:117] 
+[23-Feb-2023 22:13:02 UTC] [328/diner-1/index.php:117] implode()
+[23-Feb-2023 22:13:02 UTC] [328/diner-1/index.php:147] Base->run()
+[23-Feb-2023 22:15:51 UTC] implode(): Invalid arguments passed
+[23-Feb-2023 22:15:51 UTC] [328/diner-1/index.php:117] 
+[23-Feb-2023 22:15:51 UTC] [328/diner-1/index.php:117] implode()
+[23-Feb-2023 22:15:51 UTC] [328/diner-1/index.php:147] Base->run()
+[23-Feb-2023 22:16:22 UTC] implode(): Invalid arguments passed
+[23-Feb-2023 22:16:22 UTC] [328/diner-1/index.php:117] 
+[23-Feb-2023 22:16:22 UTC] [328/diner-1/index.php:117] implode()
+[23-Feb-2023 22:16:22 UTC] [328/diner-1/index.php:147] Base->run()
+[23-Feb-2023 22:16:25 UTC] implode(): Invalid arguments passed
+[23-Feb-2023 22:16:25 UTC] [328/diner-1/index.php:117] 
+[23-Feb-2023 22:16:25 UTC] [328/diner-1/index.php:117] implode()
+[23-Feb-2023 22:16:25 UTC] [328/diner-1/index.php:147] Base->run()
+[23-Feb-2023 22:16:49 UTC] implode(): Invalid arguments passed
+[23-Feb-2023 22:16:49 UTC] [328/diner-1/index.php:117] 
+[23-Feb-2023 22:16:49 UTC] [328/diner-1/index.php:117] implode()
+[23-Feb-2023 22:16:49 UTC] [328/diner-1/index.php:147] Base->run()
+[23-Feb-2023 22:21:58 UTC] implode(): Invalid arguments passed
+[23-Feb-2023 22:21:58 UTC] [328/diner-1/index.php:117] 
+[23-Feb-2023 22:21:58 UTC] [328/diner-1/index.php:117] implode()
+[23-Feb-2023 22:21:58 UTC] [328/diner-1/index.php:147] Base->run()
+[23-Feb-2023 22:22:01 UTC] implode(): Invalid arguments passed
+[23-Feb-2023 22:22:01 UTC] [328/diner-1/index.php:117] 
+[23-Feb-2023 22:22:01 UTC] [328/diner-1/index.php:117] implode()
+[23-Feb-2023 22:22:01 UTC] [328/diner-1/index.php:147] Base->run()
+[23-Feb-2023 22:22:03 UTC] implode(): Invalid arguments passed
+[23-Feb-2023 22:22:03 UTC] [328/diner-1/index.php:117] 
+[23-Feb-2023 22:22:03 UTC] [328/diner-1/index.php:117] implode()
+[23-Feb-2023 22:22:03 UTC] [328/diner-1/index.php:147] Base->run()
+[23-Feb-2023 22:22:07 UTC] implode(): Invalid arguments passed
+[23-Feb-2023 22:22:07 UTC] [328/diner-1/index.php:117] 
+[23-Feb-2023 22:22:07 UTC] [328/diner-1/index.php:117] implode()
+[23-Feb-2023 22:22:07 UTC] [328/diner-1/index.php:147] Base->run()
+[23-Feb-2023 22:23:27 UTC] implode(): Invalid arguments passed
+[23-Feb-2023 22:23:27 UTC] [328/diner-1/index.php:117] 
+[23-Feb-2023 22:23:27 UTC] [328/diner-1/index.php:117] implode()
+[23-Feb-2023 22:23:27 UTC] [328/diner-1/index.php:150] Base->run()
+[23-Feb-2023 22:28:25 UTC] implode(): Invalid arguments passed
+[23-Feb-2023 22:28:25 UTC] [328/diner-1/index.php:117] 
+[23-Feb-2023 22:28:25 UTC] [328/diner-1/index.php:117] implode()
+[23-Feb-2023 22:28:25 UTC] [328/diner-1/index.php:150] Base->run()
+[23-Feb-2023 22:28:29 UTC] implode(): Invalid arguments passed
+[23-Feb-2023 22:28:29 UTC] [328/diner-1/index.php:117] 
+[23-Feb-2023 22:28:29 UTC] [328/diner-1/index.php:117] implode()
+[23-Feb-2023 22:28:29 UTC] [328/diner-1/index.php:150] Base->run()
+[23-Feb-2023 22:28:30 UTC] implode(): Invalid arguments passed
+[23-Feb-2023 22:28:30 UTC] [328/diner-1/index.php:117] 
+[23-Feb-2023 22:28:30 UTC] [328/diner-1/index.php:117] implode()
+[23-Feb-2023 22:28:30 UTC] [328/diner-1/index.php:150] Base->run()
+[23-Feb-2023 22:30:13 UTC] implode(): Invalid arguments passed
+[23-Feb-2023 22:30:13 UTC] [328/diner-1/index.php:117] 
+[23-Feb-2023 22:30:13 UTC] [328/diner-1/index.php:117] implode()
+[23-Feb-2023 22:30:13 UTC] [328/diner-1/index.php:150] Base->run()
+[23-Feb-2023 22:32:08 UTC] implode(): Invalid arguments passed
+[23-Feb-2023 22:32:08 UTC] [328/diner-1/index.php:123] 
+[23-Feb-2023 22:32:08 UTC] [328/diner-1/index.php:123] implode()
+[23-Feb-2023 22:32:08 UTC] [328/diner-1/index.php:159] Base->run()
+[23-Feb-2023 22:32:09 UTC] implode(): Invalid arguments passed
+[23-Feb-2023 22:32:09 UTC] [328/diner-1/index.php:123] 
+[23-Feb-2023 22:32:09 UTC] [328/diner-1/index.php:123] implode()
+[23-Feb-2023 22:32:09 UTC] [328/diner-1/index.php:159] Base->run()
+[23-Feb-2023 22:32:09 UTC] implode(): Invalid arguments passed
+[23-Feb-2023 22:32:09 UTC] [328/diner-1/index.php:123] 
+[23-Feb-2023 22:32:09 UTC] [328/diner-1/index.php:123] implode()
+[23-Feb-2023 22:32:09 UTC] [328/diner-1/index.php:159] Base->run()
+[23-Feb-2023 22:32:32 UTC] implode(): Invalid arguments passed
+[23-Feb-2023 22:32:32 UTC] [328/diner-1/index.php:123] 
+[23-Feb-2023 22:32:32 UTC] [328/diner-1/index.php:123] implode()
+[23-Feb-2023 22:32:32 UTC] [328/diner-1/index.php:159] Base->run()
+[23-Feb-2023 22:33:28 UTC] implode(): Invalid arguments passed
+[23-Feb-2023 22:33:28 UTC] [328/diner-1/index.php:123] 
+[23-Feb-2023 22:33:28 UTC] [328/diner-1/index.php:123] implode()
+[23-Feb-2023 22:33:28 UTC] [328/diner-1/index.php:159] Base->run()
+[23-Feb-2023 22:33:29 UTC] implode(): Invalid arguments passed
+[23-Feb-2023 22:33:29 UTC] [328/diner-1/index.php:123] 
+[23-Feb-2023 22:33:29 UTC] [328/diner-1/index.php:123] implode()
+[23-Feb-2023 22:33:29 UTC] [328/diner-1/index.php:159] Base->run()
